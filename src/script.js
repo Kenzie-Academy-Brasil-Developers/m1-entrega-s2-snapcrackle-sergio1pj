@@ -48,7 +48,7 @@ function snapCracklePrime(maxValue) {
         } else if (verificaPrimo(i)) {
             arr.push("Prime");
         } else if (verificaImpar(i) && verificaMultiplo5(i)) {
-            arr.push("SnapCrakle");
+            arr.push("SnapCrackle");
         } else if(verificaImpar(i)) {
             arr.push("Snap");
         } else if (verificaMultiplo5(i)) {
