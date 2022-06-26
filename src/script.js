@@ -36,7 +36,7 @@ function snapCrackle(maxValue) {
             arr.push(i);
         }
     }
-    return arr.toString();
+    return arr.join(", ");
 }
 function snapCracklePrime(maxValue) {
     let arr = [];
@@ -57,7 +57,7 @@ function snapCracklePrime(maxValue) {
             arr.push(i);
         }
     }
-    return arr.toString();
+    return arr.join(", ");
 }
 //console.log(snapCrackle(value));
 console.log(snapCracklePrime(value)); //Mesmo caso exemplificado no problema
